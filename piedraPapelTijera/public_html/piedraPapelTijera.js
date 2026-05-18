@@ -7,4 +7,5 @@ let puntuaciónJugador=" ";
 let preguntaJugador="Que opcion eliges ";
 let respueqstaJugador=" ";
 
-
+alert(mensaje);
+alert(preguntaAplicacion);
