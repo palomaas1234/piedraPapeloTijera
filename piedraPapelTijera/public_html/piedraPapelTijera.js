@@ -1,6 +1,11 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
- */
+
+let mensaje="Bienvenid@";
+const opciones=["piedra", "papel", "tijera"];
+let preguntaAplicacion="Que opcion prefieres 'pidrea' 'papel' 'tijera'";
+let puntuaciónAplicacion=" ";
+let respuestaAplicacion=" ";
+let puntuaciónJugador=" ";
+let preguntaJugador="Que opcion prefieres 'pidrea' 'papel' 'tijera'";
+let respuestaJugador=" ";
 
 
