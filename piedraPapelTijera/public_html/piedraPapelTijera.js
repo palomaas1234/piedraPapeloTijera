@@ -9,3 +9,4 @@ let preguntaJugador="Que opcion prefieres 'pidrea' 'papel' 'tijera'";
 let respuestaJugador=" ";
 
 
+alert(mensaje);
