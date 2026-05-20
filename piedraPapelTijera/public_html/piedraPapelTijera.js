@@ -1,3 +1,4 @@
+"use_strict";
 
 let mensaje="Bienvenid@";
 const opciones=["piedra", "papel", "tijera"];
