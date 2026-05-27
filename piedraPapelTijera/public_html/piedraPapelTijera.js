@@ -9,3 +9,10 @@ let partida = 1;
 
 alert(mensaje);
 
+while (partida <= 3) {
+    respuestaJugador = prompt("preguntaJugador");
+    let numeroAleatorio = Math.floor(Math.random() * 3);
+    respuestaAplicacion = opciones[numeroAleatorio];
+    alert("La aplicación escogió: " + respuestaAplicacion);
+    partida++;
+}
