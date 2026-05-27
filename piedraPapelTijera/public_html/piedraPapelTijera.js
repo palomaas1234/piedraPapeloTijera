@@ -1,13 +1,11 @@
+"use strict";
 
-"use_strict";
-
-let mensaje="Bienvenid@";
-const opciones=["piedra", "papel", "tijera"];
-let preguntaAplicacion="Que opcion prefieres 'pidrea' 'papel' 'tijera'";
-let puntuaciónAplicacion=" ";
-let respuestaAplicacion=" ";
-let puntuaciónJugador=" ";
-let preguntaJugador="Que opcion prefieres 'pidrea' 'papel' 'tijera'";
-let respuestaJugador=" ";
+let mensaje = "Bienvenid@";
+const opciones = ["piedra", "papel", "tijera"];
+let preguntaJugador = "Que opcion prefieres 'piedra' 'papel' 'tijera'";
+let respuestaJugador = "";
+let respuestaAplicacion = "";
+let partida = 1;
 
 alert(mensaje);
+
