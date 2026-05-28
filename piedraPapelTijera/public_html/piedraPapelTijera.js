@@ -33,5 +33,5 @@ while(respuestaJugador!=respuestaAplicacion){
 let puntuacion=prompt("A llegado alguien a 3 puntos? 'Si', 'No'");
 
 while(puntuacion!='Si'){
-    
+    missatge="Habra que jugar otra vez";
 }
