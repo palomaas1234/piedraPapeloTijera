@@ -14,8 +14,8 @@ while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
     respuestaJugador = prompt("preguntaJugador");
     let numeroAleatorio = Math.floor(Math.random() * 3);
     respuestaAplicacion = opciones[numeroAleatorio];
-
-    alert("L'aplicació ha triat: " + respuestaAplicacion);
+    alert("La palicación ha elegido: " + respuestaAplicacion);
+    
     if (respuestaJugador == respuestaAplicacion) {
         alert("Empate");
     } else if (
