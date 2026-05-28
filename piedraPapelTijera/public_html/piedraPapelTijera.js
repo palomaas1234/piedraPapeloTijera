@@ -9,10 +9,32 @@ let partida = 1;
 
 alert(mensaje);
 
-while (partida <= 3) {
+
+while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
     respuestaJugador = prompt("preguntaJugador");
     let numeroAleatorio = Math.floor(Math.random() * 3);
     respuestaAplicacion = opciones[numeroAleatorio];
-    alert("La aplicación escogió: " + respuestaAplicacion);
-    partida++;
+
+    alert("L'aplicació ha triat: " + respuestaAplicacion);
+    if (respuestaJugador == respuestaAplicacion) {
+        alert("Empate");
+    } else if (
+        (respuestaJugador =="piedra"&&respuestaAplicacion =="tijera") ||
+        (respuestaJugador =="papel"&&respuestaAplicacion =="piedra") ||
+        (respuestaJugador =="tijera"&&respuestaAplicacion =="papel"))
+     {
+        puntuacionJugador++;
+        alert("Has ganado la ronda");
+    } else {
+        puntuacionAplicacion++;
+        alert("La aplicación ha ganado la ronda");
+    }
+    alert("Jugador: " + puntuacionJugador +
+        "\nAplicación: " + puntuacionAplicacion);
+
+}
+if (puntuacionJugador==3) {
+    alert("Has ganado el juego");
+} else {
+    alert("La aplicación ganó el juego");
 }
