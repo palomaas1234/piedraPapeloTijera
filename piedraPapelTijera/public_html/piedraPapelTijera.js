@@ -3,11 +3,12 @@
 
 let mensaje="Bienvenid@";
 const opciones=["piedra", "papel", "tijeras"];
-let puntuaciónJugador=" ";
-let preguntaJugador=prompt("Que opcion prefieres 'piedra' 'papel' 'tijera'");
-let respuestaJugador=" ";
+let puntuaciónJugador=0;
+let respuestaJugador="";
 let respuestaAplicacion="";
 
+alert(mensaje);
+let preguntaJugador=prompt("Que opcion prefieres 'piedra' 'papel' 'tijera'");
 while(respuestaJugador!=respuestaAplicacion){
     if((respuestaJugador=="piedra")&&(respuestaAplicacion=="papel")){
      missatge="Ha ganado la aplicacion, suma 1 punto";
