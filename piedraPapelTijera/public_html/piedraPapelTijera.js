@@ -6,7 +6,8 @@ let preguntaJugador = "Que opcion prefieres 'piedra' 'papel' 'tijera'";
 let respuestaJugador = "";
 let respuestaAplicacion = "";
 let partida = 1;
-
+let puntuacionJugador= " ";
+let puntuacionAplicacion= " ";
 alert(mensaje);
 
 
@@ -19,9 +20,9 @@ while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
     if (respuestaJugador == respuestaAplicacion) {
         alert("Empate");
     } else if (
-        (respuestaJugador =="piedra"&&respuestaAplicacion =="tijera") ||
-        (respuestaJugador =="papel"&&respuestaAplicacion =="piedra") ||
-        (respuestaJugador =="tijera"&&respuestaAplicacion =="papel"))
+        (respuestaJugador=="piedra"&&respuestaAplicacion=="tijera") ||
+        (respuestaJugador=="papel"&&respuestaAplicacion=="piedra") ||
+        (respuestaJugador=="tijera"&&respuestaAplicacion=="papel"))
      {
         puntuacionJugador++;
         alert("Has ganado la ronda");
