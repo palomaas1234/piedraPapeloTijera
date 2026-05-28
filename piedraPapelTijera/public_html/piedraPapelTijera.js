@@ -12,7 +12,7 @@ alert(mensaje);
 
 
 while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
-    respuestaJugador = prompt("preguntaJugador");
+    respuestaJugador = prompt(preguntaJugador);
     let numeroAleatorio = Math.floor(Math.random() * 3);
     respuestaAplicacion = opciones[numeroAleatorio];
     alert("La palicación ha elegido: " + respuestaAplicacion);
