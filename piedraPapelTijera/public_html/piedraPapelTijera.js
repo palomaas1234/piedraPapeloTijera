@@ -34,4 +34,11 @@ let puntuacion=prompt("A llegado alguien a 3 puntos? 'Si', 'No'");
 
 while(puntuacion!='Si'){
     missatge="Habra que jugar otra vez";
+}alert(missatge);
+missatge=prompt("Quieres volver a jugar? 'Si', 'No'");
+if(missatge=='Si'){
+    preguntaJugador=prompt("Que opcion prefieres 'piedra' 'papel' 'tijera'");
+    alert(preguntaJugador);
+}else if(missatge!='No'){
+    alert("Gracias por haber jugado");
 }
