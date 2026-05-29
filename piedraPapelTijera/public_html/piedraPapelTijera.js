@@ -18,16 +18,22 @@ let preguntaJugador=prompt("Que opcion prefieres 'piedra' 'papel' 'tijera'");
 while(respuestaJugador!=respuestaAplicacion){
     if((respuestaJugador=="piedra")&&(respuestaAplicacion=="papel")){
      missatge="Ha ganado la aplicacion, suma 1 punto";
+     alert(missatge);
  }else if((respuestaJugador=="piedra")&&(respuestaAplicacion=="tijera")){
      missatge="Ha ganado el jugador, suma 1 punto";
+      alert(missatge);
  }else if((respuestaJugador=="Papel")&&(respuestaAplicacion=="Piedra")){
      missatge="Ha ganado el jugador, suma 1 punto";
+      alert(missatge);
  }else if((respuestaJugador=="Papel")&&(respuestaAplicacion=="Tijera")){
      missatge="Ha ganado la aplicacion, suma 1 punto";
+      alert(missatge);
  }else if((respuestaJugador=="Tijera")&&(respuestaAplicacion=="Piedra")){
      missatge="Ha ganado la aplicacion, suma 1 punto";
+      alert(missatge);
  }else if((respuestaJugador=="Tijera")&&(respuestaAplicacion=="Papel")){
      missatge="Ha ganado el jugador, suma 1 punto";
+      alert(missatge);
  }
     
  missatge="Habeis hecho un empate";   
