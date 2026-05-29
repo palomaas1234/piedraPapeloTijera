@@ -24,9 +24,7 @@ while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
         (respuestaJugador=="papel"&&respuestaAplicacion=="piedra") ||
         (respuestaJugador=="tijera"&&respuestaAplicacion=="papel"))
      {
-if(respuestaJugador!=="piedra"
-        &&respuestaJugador!=="papel"
-        &&respuestaJugador!=="tijera"){
+if(respuestaJugador!== "piedra", "papel", "tijera"){
     alert("Esta opción no exiaste");
 }
         puntuacionJugador++;
