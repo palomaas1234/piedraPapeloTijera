@@ -24,13 +24,11 @@ while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
         (respuestaJugador=="papel"&&respuestaAplicacion=="piedra") ||
         (respuestaJugador=="tijera"&&respuestaAplicacion=="papel"))
      {
-  if (
-    respuestaJugador != "piedra" &&
-    respuestaJugador != "papel" &&
-    respuestaJugador != "tijera"
-) {
-
-    alert("Esta opción no existe");
+if(respuestaJugador!=="piedra"
+        &&respuestaJugador!=="papel"
+        &&respuestaJugador!=="tijera"){
+    alert("Esta opción no exiaste");
+}
         puntuacionJugador++;
         alert("Has ganado la ronda");
     } else {
