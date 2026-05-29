@@ -15,7 +15,7 @@ while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
     respuestaJugador = prompt(preguntaJugador);
     let numeroAleatorio = Math.floor(Math.random() * 3);
     respuestaAplicacion = opciones[numeroAleatorio];
-    alert("La palicación ha elegido: " + respuestaAplicacion);
+    alert("La aplicación ha elegido: " + respuestaAplicacion);
     
     if (respuestaJugador == respuestaAplicacion) {
         alert("Empate");
@@ -24,6 +24,7 @@ while (puntuacionJugador <3&&puntuacionAplicacion< 3) {
         (respuestaJugador=="papel"&&respuestaAplicacion=="piedra") ||
         (respuestaJugador=="tijera"&&respuestaAplicacion=="papel"))
      {
+         alert("Esta opción no existe");
         puntuacionJugador++;
         alert("Has ganado la ronda");
     } else {
