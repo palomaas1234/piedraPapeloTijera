@@ -3,12 +3,18 @@
 
 let mensaje="Bienvenid@";
 const opciones=["piedra", "papel", "tijeras"];
-let puntuaciónJugador=0;
+let puntuacionJugador=0;
 let respuestaJugador="";
 let respuestaAplicacion="";
+let puntuacionAplicacion=0;
+let partida=1;
+
 
 alert(mensaje);
 let preguntaJugador=prompt("Que opcion prefieres 'piedra' 'papel' 'tijera'");
+
+
+
 while(respuestaJugador!=respuestaAplicacion){
     if((respuestaJugador=="piedra")&&(respuestaAplicacion=="papel")){
      missatge="Ha ganado la aplicacion, suma 1 punto";
@@ -32,11 +38,11 @@ while(respuestaJugador!=respuestaAplicacion){
  
 
 let puntuacion=prompt("A llegado alguien a 3 puntos? 'Si', 'No'");
-
 while(puntuacion!='Si'){
     missatge="Habra que jugar otra vez";
 }alert(missatge);
 missatge=prompt("Quieres volver a jugar? 'Si', 'No'");
+alert(missatge);
 if(missatge=='Si'){
     preguntaJugador=prompt("Que opcion prefieres 'piedra' 'papel' 'tijera'");
     alert(preguntaJugador);
